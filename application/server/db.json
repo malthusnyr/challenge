@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "nome": "Raphael",
+      "email": "raphael@gmail.com",
+      "idade": 30,
+      "login": "rps",
+      "senha": "rps123",
+      "status": "Ativo"
+    },
+    {
+      "id": "2",
+      "nome": "Mayra",
+      "email": "mayra@gmail.com",
+      "idade": 26,
+      "login": "may",
+      "senha": "may123",
+      "status": "Ativo"
+    },
+    {
+      "id": "3",
+      "nome": "Diego",
+      "email": "diego@gmail.com",
+      "idade": 34,
+      "login": "die",
+      "senha": "die123",
+      "status": "Inativo"
+    },
+    {
+      "id": "4",
+      "nome": "Pedro",
+      "email": "pedro@gmail.com",
+      "idade": 29,
+      "login": "ped",
+      "senha": "ped123",
+      "status": "Ativo"
+    }
+  ]
+}
