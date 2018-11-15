@@ -3,9 +3,13 @@
 ---------------------------
 
 > Angular CLI: 7.0.5
+
 > Node: 8.11.4
+
 > OS: linux x64
+
 > Angular: 7.0.3
+
 > Bootstrap: 4.1.3
 
 ## Json Server
@@ -24,5 +28,5 @@ No terminal use o comando **ng serve** para startar o dev server. No seu navegad
 Com o comando **ng build** você pode compilar o projeto. O projeto poderá ser localizado no diretório dist/. Use a tag **--prod** para compilar em produção.
 
 ## Mais informações
-Para obter mais ajuda sobre o Angular CLI utilize o comando **ng help**.
-----------------------------
+Para obter mais ajuda sobre o Angular CLI utilize o comando **nf help*.
+
