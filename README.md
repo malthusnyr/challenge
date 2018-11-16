@@ -3,10 +3,15 @@
 ---------------------------
 
 > Angular CLI: 7.0.5
+
 > Node: 8.11.4
+
 > OS: linux x64
+
 > Angular: 7.0.3
+
 > Bootstrap: 4.1.3
+
 
 ## Json Server
 Primeiramente instale o Json-server com o comando:
