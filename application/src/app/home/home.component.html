@@ -1,37 +1,32 @@
-<h2>ESCOPO DO PROJETO ............................................................</h2>
-<p>
-    $ > Criar um projeto Angular 6, utilizando a abordagem SPA com as seguintes funcionalidades: Construir a estrutura do projeto utilizando o npm (gerenciador de pacotes do Node.js); Criar uma pagina de cadastro de Pessoa com os seguintes campos: ID, Nome, Email, Idade, Login, Senha e Status (ativo/inativo); Criar uma listagem dos usuários cadastrados, através de uma GRID; Criar a rota linkando uma página a outra (Adicinar Pessoa e Listar Pessoa); Implementar o consumo da API disponibilizadas, através dos dois endpoints:
-</p>     
-    <p>API de Listagem
-    API de Cadastro</p>
-   
- <p>Criar um design básico para páginas (pode ser utilizado o bibliotecas/frameworks como bootstrap ou material-UI design disponíveis no repositório do npm)
-    Diferencial: Implementar um filtro de busca por algum parâmetro do objeto retornado (nome, email, etc). 
-    Pode utilizar os componentes de terceiros (contido no NPM) para tal implementação;
-</p>   
-<p>
-$ > Ponto 1: API O candidato deverá criar uma API Fake para desenvolvimento, utilizando Mock/Stub para esse serviço. Para tal situação pode se utilizar as ferramentas de criação de mock/stubs de API como (apiary.io, jsonapi).
-</p>
-<p>
-$ > Ponto 2: Entrega Disponibilizar o código fonte de maneira pública no GITHUB enviando para os endereços: (...); Registrar o primeiro commit de criação do projeto assim como todo o fluxo de desenvolvimento, até a entrega final;
-</p>
-<p>
-$ > Ponto 3: Prazo O prazo para realização e entrega do desafio é ate o dia 16 de novembro. O link do repositório no github deverá ser enviado por e-mail até este prazo, caso ao contrário consideramos desistência; Não será considerado entrega após o prazo estipulado.
-</p>
-   
-<p> 
-$ > Ponto 4: Avaliação Será avaliado as seguintes questões no projeto executado: Cumprimento dos requisitos proposto no desafio; Execução do código compilando e rodando no navegador (Google Chorme); Avaliação do uso e consumo da API Mock; Domínio HTML5/CSS3 com base no design proposto e bibliotecas utilizadas (bootstrap, material-UI); Domínio da implementação ES6 com Angular/6; Integridade dos código (tratamento das exceptions); Navegação das páginas em SPA; Utilização de componentes angular ou terceiros para realização do trabalho (diferencial, mas não é obrigatório); Apresentação e navegação adequada da página (diferencial, mas não obrigatório); Página responsiva (diferencial, mas não obrigatório);
-</p>
- <p>O candidato deverá informar uma documentação básica no README.md do repositório, relatando os componentes utilizados e critérios para executar a aplicação.
-    
-    Ex:
-    Nome do projeto
-    
-    Angular CLI 6.2.3 Bootstrap 3.3.7 Node.js 10.13
-    
-    Executar Utilize o comando ng server para iniciar o projeto e acesso o endereço http://localhost:3000
-    
-    Compilar Compilando pelo comando ng build
-    
-    (...)
-</p>
+---------------------------
+# Desafio Front-End Web
+---------------------------
+
+> Angular CLI: 7.0.5
+> Node: 8.11.4
+> OS: linux x64
+> Angular: 7.0.3
+> Bootstrap: 4.1.3
+
+## Json Server
+Primeiramente instale o Json-server com o comando:
+**npm install -g json-server**
+Depois através do terminal acesse a pasta server no caminho.
+```
+~/challenge-master/application/server
+```
+Use o comando **json-server --watch db.json** para rodar o servidor da API localmente. Ele pode ser acessado através do [http://localhost:3000](http://localhost:3000)
+
+## Development server
+No terminal use o comando **ng serve** para startar o dev server. No seu navegador acesse o  [http://localhost:4200](http://localhost:4200) para ter acesso ao projeto.
+```
+Você pode utilizar a tag -o para abrir a pagina diretamente após o up do server.
+**ng serve -o**
+```
+
+## Build
+Com o comando **ng build** você pode compilar o projeto. O projeto poderá ser localizado no diretório dist/. Use a tag **--prod** para compilar em produção.
+
+## Mais informações
+Para obter mais ajuda sobre o Angular CLI utilize o comando **ng help**.
+----------------------------

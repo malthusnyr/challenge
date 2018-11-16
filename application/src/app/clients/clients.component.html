@@ -1,13 +1,18 @@
-  <div class="row mt-5">
-        <div class="col-md-4 mb-3" *ngFor="let user of list">
+  <div class="form-group mt-2 mb-0 ml-4" >
+    <input [(ngModel)]="filtertext" type="text" class="form-control" placeholder="Pesquisar por nome" style="width:300px" />
+  </div>
+
+  <div class="row mt-2 ml-2">
+        <div class="col-md-4 mb-3" *ngFor="let user of list | myfilter: filtertext">
           <div class="card text-center">        
-              <div class="card-header">{{user.nome}} ID: {{user.id}}</div>
+              <div class="card-header">{{user.nome}}</div>
               <ul class="list-group list-group-flush">
+              <li class="list-group-item">Id: {{user.id}}</li>
               <li class="list-group-item">Email: {{user.email}}</li>
               <li class="list-group-item">Idade: {{user.idade}}</li>
               <li class="list-group-item">Login: {{user.login}}</li>
               <li class="list-group-item">Senha: {{user.senha}}</li>
-              <li class="list-group-item">Status: {{user.status}}</li>
+              <li class="list-group-item">Ativo: {{user.isActive}}</li>
               </ul>
             </div>        
         </div>

@@ -8,8 +8,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { RegisterclientComponent } from './registerclient/registerclient.component';
 import { ClientsComponent } from './clients/clients.component';
-import { HomeComponent } from './home/home.component';
 import { ListService } from './list.service';
+import { FilterPipe } from './myfilter.pipe';
+import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
@@ -17,6 +18,7 @@ import { ListService } from './list.service';
     AppComponent,
     RegisterclientComponent,
     ClientsComponent,
+    FilterPipe,
     HomeComponent
   ],
   imports: [

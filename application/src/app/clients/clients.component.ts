@@ -8,7 +8,8 @@ import { ListService } from '../list.service';
 })
 export class ClientsComponent implements OnInit {
 
-  list = []
+  list = [];
+  filtertext:string = '';
 
   constructor(private _listService: ListService) { }
 
