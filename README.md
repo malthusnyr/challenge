@@ -1,7 +1,6 @@
 ---------------------------
 # Desafio Front-End Web
 ---------------------------
-<<<<<<< HEAD
 
 > Angular CLI: 7.0.5
 > Node: 8.11.4
@@ -31,7 +30,7 @@ Com o comando **ng build** você pode compilar o projeto. O projeto poderá ser 
 ## Mais informações
 Para obter mais ajuda sobre o Angular CLI utilize o comando **ng help**.
 ----------------------------
-=======
+
 
 > Angular CLI: 7.0.5
 
@@ -60,5 +59,3 @@ Com o comando **ng build** você pode compilar o projeto. O projeto poderá ser 
 
 ## Mais informações
 Para obter mais ajuda sobre o Angular CLI utilize o comando **ng help**.
-
->>>>>>> d3c7d06ccaacdbe465bd954317a36aaa635e20b1
